@@ -1,0 +1,44 @@
+.graf {
+				height: 260px;
+				width: 260px;
+				padding: 20px;
+			}
+			
+			.graf_axes {
+				border-bottom: 1px solid #000;
+				border-left: 1px solid #000;
+				height: 100%;
+				position: relative;
+			}
+
+			.col {
+				border: 1px solid #000;
+				border-bottom: none;
+				width: 30px;
+				overflow: hidden;
+				position: absolute;
+				bottom: 0;
+			}
+
+			.col1 {
+				background: #f00;
+				height: 30%;
+				left: 20px;
+			}
+
+			.col2 {
+				background: #0f0;
+				height: 50%;
+				left: 65px;
+			}
+
+			.col3 {
+				background: #00f;
+				height: 90%;
+				left: 110px;
+			}
+
+			.col4 {
+				background: #f80;
+				height: 100%;
+				left: 155px;
